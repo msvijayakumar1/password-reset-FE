@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/',
+  baseURL: 'https://password-reset-e6q8.onrender.com/',
 })
 
 export const signIn = (formData) => API.post(`/users/signin`, formData)
